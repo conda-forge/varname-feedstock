@@ -11,7 +11,7 @@ source:
   sha256: 06f8fa6e7db0a9897ada5e096eab95f9c2e3811e69e7a29f747517e4377f3d2b
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script:
     # Removing pyproject.toml here due to pip bug
