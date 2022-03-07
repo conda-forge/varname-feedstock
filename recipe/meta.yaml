@@ -1,5 +1,5 @@
 {% set name = "varname" %}
-{% set version = "0.8.1" %}
+{% set version = "0.8.2" %}
 
 
 package:
@@ -8,10 +8,10 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/varname-{{ version }}.tar.gz
-  sha256: 06f8fa6e7db0a9897ada5e096eab95f9c2e3811e69e7a29f747517e4377f3d2b
+  sha256: 2df1fdd8945e57e67193c09998f5c9eeeb2d8c1f30f561ce71b94480a846e5d9
 
 build:
-  number: 1
+  number: 0
   noarch: python
   script:
     # Removing pyproject.toml here due to pip bug
