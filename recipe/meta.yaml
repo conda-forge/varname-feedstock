@@ -1,5 +1,5 @@
 {% set name = "varname" %}
-{% set version = "0.9.0" %}
+{% set version = "0.9.1" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/varname-{{ version }}.tar.gz
-  sha256: ffb4feadaab35669f43e91d64b8732b2f6514b5b92e659a8c9553a583400c9e1
+  sha256: b3a7f58a6254be33a2bc167edd2419d3e4479723963315f5b0723c1269a33fd2
 
 build:
   number: 0
@@ -20,12 +20,12 @@ requirements:
   host:
     - pip
     - poetry >=0.12
-    - python >=3.6
+    - python >=3.6,<4.0
   run:
     - asttokens >=2.0.0,<3.0.0
-    - executing >=0.9.0,<0.10.0
+    - executing >=1.0,<2.0
     - pure_eval <1.0.0
-    - python >=3.6
+    - python >=3.6,<4.0
 
 test:
   imports:
@@ -39,7 +39,6 @@ about:
   home: https://github.com/pwwang/python-varname
   summary: Dark magics about variable names in python.
   license: MIT
-  # Check with upstream for license file
   license_file: LICENSE
 
 extra:
