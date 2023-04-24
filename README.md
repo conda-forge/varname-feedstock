@@ -1,11 +1,11 @@
-About varname
-=============
+About varname-feedstock
+=======================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/varname-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/pwwang/python-varname
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/varname-feedstock/blob/main/LICENSE.txt)
 
 Summary: Dark magics about variable names in python.
 
