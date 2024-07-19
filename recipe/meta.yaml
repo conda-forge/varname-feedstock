@@ -1,5 +1,5 @@
 {% set name = "varname" %}
-{% set version = "0.13.1" %}
+{% set version = "0.13.3" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/varname-{{ version }}.tar.gz
-  sha256: 3d3ae868936c908d81e0bef19b29d2f21e9a60247097c9ed39678522cd678c0c
+  sha256: fcaee413d28dc84301e5b2c6383b8c8b5d15eccc2218b5a1d1c50f21df024e2c
 
 build:
   number: 0
@@ -25,7 +25,6 @@ requirements:
     - python >=3.8,<4.0
     - asttokens >=2.0.0,<3.0.0
     - executing >=2.0,<3.0
-    - pure_eval <1.0.0
 
 
 test:
