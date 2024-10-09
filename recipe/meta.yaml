@@ -1,5 +1,5 @@
 {% set name = "varname" %}
-{% set version = "0.13.3" %}
+{% set version = "0.13.4" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/varname-{{ version }}.tar.gz
-  sha256: fcaee413d28dc84301e5b2c6383b8c8b5d15eccc2218b5a1d1c50f21df024e2c
+  sha256: f98fd7744ce47f4995de125f97f28463eab9ea5cd4cab27e4e85a1dbf1ee6953
 
 build:
   number: 0
