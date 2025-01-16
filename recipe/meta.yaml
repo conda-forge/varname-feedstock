@@ -20,9 +20,9 @@ requirements:
   host:
     - pip
     - poetry-core
-    - python >=3.8.0,<4.0.0
+    - python {{ python_min }}
   run:
-    - python >=3.8.0,<4.0.0
+    - python >={{ python_min }}
     - executing >=2.1.0,<3.0.0
 
 
@@ -33,6 +33,7 @@ test:
     - pip check
   requires:
     - pip
+    - python {{ python_min }}
 
 about:
   home: https://github.com/pwwang/python-varname
