@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: varname
-  version: 0.15.0
+  version: "0.15.1"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/varname-${{ version }}.tar.gz
-  sha256: 86e66d59adf97ed301169ab0cb9b33a2f08f3184cd9c3b14901a09d1972dbfee
+  sha256: cf1b9aa38197f4df5ad9bd9db32ce0439aa6b43e24456fe5d20ad352a8014ade
 
 build:
   number: 0
